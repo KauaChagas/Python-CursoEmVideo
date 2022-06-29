@@ -9,5 +9,3 @@ for i in range(4):
     # lnome.append(nome)
     lidade.append(idade)
     # lsexo.append(sexo)
-
-    
