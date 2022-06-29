@@ -1,5 +1,5 @@
-lnome = []
-# lidade = []
+#lnome = []
+lidade = []
 # lsexo = []
 
 for i in range(4):
