@@ -3,7 +3,7 @@ from cores import cor
 
 valor1 = int(input('{}Primeiro valor: {}'.format(cor['amarelo'], cor['final'])))
 valor2 = int (input('{}Segundo valor: {}'.format(cor['amarelo'], cor['final'])))
-key = 0
+key =  0
 t = 1
 while key != 5:
     sleep(t)
