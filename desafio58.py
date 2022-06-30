@@ -1,4 +1,4 @@
-from random import randint
+from random  import randint
 num = randint(1,10)
 
 print("Sou seu computador e...\nAcabei de pensar em um número entre 0 e 10")
@@ -10,7 +10,7 @@ while palpite != num:
         print('Mais alto!')
     else:
         print('Mais baixo!')
-        
+
     palpite = int(input("Você errou! Tente novamente: "))
     cont += 1
 
