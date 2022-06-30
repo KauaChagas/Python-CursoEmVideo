@@ -7,7 +7,7 @@ key =  0
 t = 1
 while key != 5:
     sleep(t)
-    print('{}{}{}'.format(cor['vermelho'],(13*'-='+'-'),cor['final']))
+    print('{}{}{}'.format(cor['vermelho'],(15*'=-'+'='),cor['final']))
     print('''    {}[ 1 ] Somar 
     [ 2 ] Multiplicar
     [ 3 ] Maior
