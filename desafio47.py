@@ -10,7 +10,7 @@
 #=========OUTRA FORMA DE RESOLVER=========
 num = int(input('Digite um número: '))
 
-for i in range(0, num + 1, 2):
+for i in range(2, num + 1, 2):
     print(i,end=' ')
 
 print('acabou')

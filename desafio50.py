@@ -16,3 +16,19 @@ for i in lista:
         VD.append(i)
 
 print(f"Soma dos números pares: {soma}.\nValores desprezados: {VD}.")
+
+# =========OUTRA FORMA DE RESOLVER=========
+
+# soma = 0
+# cont = 0
+# lista = []
+# for i in range(1, 7):
+#     valor = int(input("Digte o {}º valor: ".format(i)))
+#     if valor%2 == 0:
+#         soma += valor
+#     else:
+#         cont += 1
+#         lista.append(valor)
+
+# print("A soma dos valores pares é {}.".format(soma))
+# print("Foram desprezados {} valores: {}.".format(cont, lista))
